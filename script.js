@@ -33,6 +33,7 @@ buttonEl.addEventListener('click', e => {
 
 function generatePassword(characterAmount, includeUppercase, includeLowercase, includeNumbers, includeSymbols) {
   // let charCodes = LOWERCASE_CHAR_CODES
+  console.log("inside password generator")
   let charCodes = []
   if (includeUppercase) charCodes = charCodes.concat(UPPERCASE_CHAR_CODES)
   if (includeLowercase) charCodes = charCodes.concat(LOWERCASE_CHAR_CODES)
